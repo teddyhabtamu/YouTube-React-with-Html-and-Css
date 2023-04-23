@@ -1,0 +1,131 @@
+body{
+  height: 2000px;
+  padding-top: 56px;
+  padding-left: 74px;
+}
+.header{
+  background-color: white;
+  height: 55px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(206, 206, 206);
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.sidebar{
+  background-color: white;
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  width: 74px;
+
+}
+
+.side-bar-items{
+  height: 70px;
+
+}
+
+.side-bar-items:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.div{
+  background-color: rgb(241, 241, 241);
+  padding-top: 24px;
+  padding-left: 22px;
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+
+.right{
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 22px;
+  flex-shrink: 0;
+}
+
+.middle{ 
+  display: flex;
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 48px;
+  max-width: 500px;
+  align-items: center;
+  
+}
+.hamburger-menu {
+  height: 25px;
+  margin-left: 24px;
+}
+.youtube-logo{
+  height: 20px;
+  margin-left: 24px;
+}
+
+.search{
+  flex: 1;
+  height: 36px;
+  border-radius: 2px;
+  border-color: rgb(197, 197, 197);
+  border-width: 1px;
+  border-style: solid;
+  width: 0;
+  font-size: 16px;
+  font-family: roboto, arial;
+  padding-left: 12px;
+  box-shadow: inset 1px 2px 3px rgb(197, 197, 197, 0.1);
+  
+  
+}
+
+.search::placeholder{
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  
+}
+
+.search:active{
+  border-width: 1px;
+  border-color: rgb(44, 89, 255);
+  border-style: solid;
+}
+
+.search-button{
+  height: 40px;
+  width: 64px;
+  padding-top: 4px;
+  border-width: 1px;
+  margin-left: -1px;
+  border-color: rgb(197, 197, 197);
+  border-style: solid;
+  border-radius: 2px;
+  background-color: rgb(248, 248, 248);
+
+}
+
+.voice-icon{
+  height: 39px;
+  width: 39px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 19.5px;
+  padding-top: 4px;
+  background-color: rgb(248, 248, 248);
+ 
+
+}
+
